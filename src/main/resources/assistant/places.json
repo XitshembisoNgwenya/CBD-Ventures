@@ -1,0 +1,921 @@
+[
+  {
+    "id": "student:xpresso",
+    "name": "Xpresso Coffee Shop",
+    "aliases": [
+      "Xpresso",
+      "Xpresso coffee",
+      "Expresso",
+      "Espresso"
+    ],
+    "category": "food",
+    "address": "Pretoria Central, Pretoria",
+    "lat": -25.745705,
+    "lng": 28.190057,
+    "description": "Coffee shop in Pretoria Central. Exact street address was not included with the supplied map pin.",
+    "sourceLabel": "Student-supplied storefront photo and map pin",
+    "verificationNote": "Map pin supplied; exact street address not provided."
+  },
+  {
+    "id": "student:honchos",
+    "name": "Honchos",
+    "aliases": [
+      "Honchos chicken",
+      "Honchos Pretoria"
+    ],
+    "category": "food",
+    "address": "225 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "description": "Chicken and fast food takeaway. Phone: 012 007 0818. Current menu and opening hours were not provided.",
+    "image": "/images/places/honchos.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin",
+    "lat": -25.747864,
+    "lng": 28.189277,
+    "menuSourceUrl": "https://www.ubereats.com/za/store/honchos-pretorius-street-halaal/QBb3Wj7FRUKacrpASxoBHQ",
+    "menuNote": "Online listing prices can differ from walk-in prices; check at the counter.",
+    "menuItems": [
+      {
+        "id": "honchos-chicken-cheese-wrap",
+        "name": "Chicken and Cheese Wrap",
+        "category": "wrap",
+        "description": "",
+        "price": 34.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/honchos-pretorius-street-halaal/QBb3Wj7FRUKacrpASxoBHQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "honchos-beef-burger-fries",
+        "name": "Beef Burger and Fries",
+        "category": "burger",
+        "description": "",
+        "price": 36.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/honchos-pretorius-street-halaal/QBb3Wj7FRUKacrpASxoBHQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "honchos-strips-spicy-rice",
+        "name": "Strips and Spicy Rice",
+        "category": "chicken",
+        "description": "",
+        "price": 41.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/honchos-pretorius-street-halaal/QBb3Wj7FRUKacrpASxoBHQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:family-chips",
+    "name": "Family Chips",
+    "aliases": [
+      "Family Chips Pretoria",
+      "family chips"
+    ],
+    "category": "food",
+    "address": "207 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "lat": -25.748026,
+    "lng": 28.188629,
+    "description": "Takeaway food at the storefront marked Family Chips. Current menu and prices were not provided.",
+    "image": "/images/places/family-chips.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin"
+  },
+  {
+    "id": "student:magwinya-zone",
+    "name": "Magwinya Zone",
+    "aliases": [
+      "magwinya",
+      "vetkoek",
+      "fat cakes"
+    ],
+    "category": "food",
+    "address": "Middestad Mall, 752R+Q9Q, Pretoria Central, Pretoria, 0002",
+    "description": "Magwinya takeaway at Middestad Mall. Current menu and prices were not provided.",
+    "image": "/images/places/magwinya-zone.jpg",
+    "sourceLabel": "Student-supplied storefront photo and map reference",
+    "verificationNote": "Approximate Middestad Mall pin; the exact stall position may differ.",
+    "lat": -25.747853,
+    "lng": 28.192196
+  },
+  {
+    "id": "student:thuba-rush-kj",
+    "name": "Thuba Rush KJ",
+    "aliases": [
+      "Thaba Rush KJ",
+      "Thuba Rush",
+      "Thaba Rush"
+    ],
+    "category": "food",
+    "address": "Opera Plaza, 230 Pretorius Street, Pretoria Central (opposite FNB)",
+    "lat": -25.747491,
+    "lng": 28.18961,
+    "description": "Takeaway food at Opera Plaza. Current menu and opening hours were not provided.",
+    "image": "/images/places/thuba-rush-kj.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin"
+  },
+  {
+    "id": "student:absa-building",
+    "name": "ABSA Building",
+    "aliases": [
+      "ABSA",
+      "Absa Bank",
+      "ABSA 230 Lilian Ngoyi"
+    ],
+    "category": "banking",
+    "address": "224/230 Lilian Ngoyi Street, Pretoria Central",
+    "description": "ABSA bank branch. Confirm the correct entrance and available branch or ATM services before visiting.",
+    "image": "/images/places/absa-building.jpg",
+    "sourceLabel": "Student-supplied storefront photo and address",
+    "verificationNote": "Address map pin is for 230 Lilian Ngoyi Street, Pretoria Central.",
+    "lat": -25.7472,
+    "lng": 28.1933
+  },
+  {
+    "id": "student:asian-delight-shawarma",
+    "name": "Asian Delight Shawarma",
+    "aliases": [
+      "Asian Delight",
+      "shawarma",
+      "shwarma"
+    ],
+    "category": "food",
+    "address": "223 Central Street, Pretoria Central, Pretoria",
+    "lat": -25.74681,
+    "lng": 28.192143,
+    "description": "Shawarma and takeaway food at 223 Central Street.",
+    "image": "/images/places/asian-delight-shawarma.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin"
+  },
+  {
+    "id": "student:quick-bake",
+    "name": "Quick Bake Confectioners & Coffee",
+    "aliases": [
+      "Quick Bake",
+      "Quick Bak",
+      "QuickBake",
+      "Quick Bake confectioners"
+    ],
+    "category": "food",
+    "address": "7 Bank Lane, Pretoria Central, Pretoria, 0002",
+    "lat": -25.748906,
+    "lng": 28.192218,
+    "description": "Confectioners and coffee shop at 7 Bank Lane. Current menu and opening hours were not provided.",
+    "image": "/images/places/quick-bake.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin",
+    "menuSourceUrl": "https://www.mrd.com/delivery/restaurant/quick-bake-confectioners-and-coffee-pretoria-central/29058",
+    "menuNote": "Menu prices are from Mr D and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "quick-bake-plain-scone",
+        "name": "Plain Scone",
+        "category": "bakery",
+        "description": "Plain, fluffy scone.",
+        "price": 28,
+        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/448bffd0dfbb47e9c25ca7612cf7df73/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/quick-bake-confectioners-and-coffee-pretoria-central/29058",
+        "imageSource": "Quick Bake menu photo",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "quick-bake-fruit-scone",
+        "name": "Fruit Scone",
+        "category": "bakery",
+        "description": "Scone with raisins.",
+        "price": 31,
+        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/448bffd0dfbb47e9c25ca7612cf7df73/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/quick-bake-confectioners-and-coffee-pretoria-central/29058",
+        "imageSource": "Quick Bake menu photo",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "quick-bake-pie",
+        "name": "Pie",
+        "category": "bakery",
+        "description": "Your choice of filling in a light, crispy pastry.",
+        "price": 34,
+        "image": null,
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/quick-bake-confectioners-and-coffee-pretoria-central/29058",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "quick-bake-cheese-scone",
+        "name": "Cheese Scone",
+        "category": "bakery",
+        "description": "Rich cheese-flavour scone.",
+        "price": 35,
+        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/448bffd0dfbb47e9c25ca7612cf7df73/3ac2b39ad528f8c8c5dc77c59abb683d.jpeg",
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/quick-bake-confectioners-and-coffee-pretoria-central/29058",
+        "imageSource": "Quick Bake menu photo",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:phola-shisa-nyama",
+    "name": "Phola Shisa Nyama",
+    "aliases": [
+      "Phola",
+      "Polo Shisa Nyama",
+      "Phola nyama"
+    ],
+    "category": "food",
+    "address": "219 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "description": "Shisa nyama at 219 Pretorius Street. Current menu and opening hours were not provided.",
+    "image": "/images/places/phola-shisa-nyama.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map reference",
+    "verificationNote": "Approximate pin for 219 Pretorius Street, Finpark Arcade; walking distance may differ.",
+    "lat": -25.74748,
+    "lng": 28.18968
+  },
+  {
+    "id": "student:four-four-two",
+    "name": "Four Four Two Sports & Music Lounge",
+    "aliases": [
+      "Four Four Two",
+      "FourFour Two",
+      "442",
+      "fourfour two"
+    ],
+    "category": "fun",
+    "address": "Pretoria Central, Pretoria",
+    "lat": -25.745831,
+    "lng": 28.197565,
+    "description": "Sports and music lounge in Pretoria Central. Check entry requirements and events with the venue.",
+    "image": "/images/places/four-four-two.jpg",
+    "sourceLabel": "Student-supplied storefront photo and map pin"
+  },
+  {
+    "id": "student:top-class-fast-foods",
+    "name": "Top Class Fast Foods",
+    "aliases": [
+      "Top Class",
+      "top class",
+      "topclass fast food"
+    ],
+    "category": "food",
+    "address": "287 Pretorius Street, Pretoria Central, Pretoria",
+    "lat": -25.747539,
+    "lng": 28.1926,
+    "description": "Fast-food takeaway at 287 Pretorius Street.",
+    "image": "/images/places/top-class-fast-foods.jpg",
+    "sourceLabel": "Student-supplied storefront photo, address and map pin"
+  },
+  {
+    "id": "student:state-theatre",
+    "name": "The South African State Theatre",
+    "aliases": [
+      "State Theatre",
+      "South African State Theatre",
+      "Pretoria State Theatre",
+      "State Theatre Pretoria"
+    ],
+    "category": "fun",
+    "address": "320 Pretorius Street, Pretoria Central, Pretoria, 0001",
+    "lat": -25.747171,
+    "lng": 28.194145,
+    "description": "Performing-arts venue. Phone: 012 392 4000. Website: http://www.statetheatre.co.za/. Check the current programme, opening hours and ticket details with the venue.",
+    "sourceLabel": "Student-supplied photo, address and map pin"
+  },
+  {
+    "id": "student:container-4-et-beauty-salon",
+    "name": "Container 4 E&T Beauty Salon",
+    "aliases": [
+      "Container 4 E&T",
+      "E&T Beauty Salon",
+      "Container 4 Beauty Salon",
+      "344 Francis Baard Beauty Salon",
+      "beauty salon"
+    ],
+    "category": "grooming",
+    "address": "344 Francis Baard Street, E&T Container Market, Pretoria Central, Pretoria, 0002",
+    "description": "Beauty salon at Container 4 E&T. Current services, opening hours and booking details were not supplied.",
+    "sourceLabel": "Student-supplied salon photo, address and Google Maps reference",
+    "verificationNote": "Approximate E&T Container Market pin; individual salon stall positions may differ.",
+    "lat": -25.7487,
+    "lng": 28.1951
+  },
+  {
+    "id": "local:richfield-library",
+    "name": "Richfield Campus Library",
+    "aliases": [
+      "Richfield Library",
+      "Richfield campus library",
+      "campus library",
+      "the library at Richfield"
+    ],
+    "category": "study",
+    "address": "291 Helen Joseph Street, Pretoria Central, Pretoria, 0001 (on campus)",
+    "lat": -25.746467,
+    "lng": 28.19252,
+    "description": "Quiet study space on the Richfield Pretoria campus for registered students with a campus card.",
+    "highlights": [
+      "Quiet study floors and group rooms.",
+      "Reliable campus Wi-Fi is available."
+    ],
+    "sourceLabel": "Richfield campus directory",
+    "verificationNote": "Campus access may require a valid Richfield student card."
+  },
+  {
+    "id": "student:sammy-marks-library",
+    "name": "Es’kia Mphahlele Community Library",
+    "aliases": [
+      "Eskia Mphahlele Library",
+      "E'skia Mphahlele Library",
+      "Mphahlele Library",
+      "Es’kia Library",
+      "Sammy Marks Square Library"
+    ],
+    "category": "study",
+    "address": "Sammy Marks Square, corner Madiba Street and Sisulu Street, Pretoria Central, Pretoria, 0002",
+    "lat": -25.745855,
+    "lng": 28.193177,
+    "description": "City of Tshwane community library at Sammy Marks Square, a nearby public option for reading and study.",
+    "highlights": [
+      "Public community library in Sammy Marks Square.",
+      "A nearby place to read, study or do research."
+    ],
+    "sourceLabel": "City of Tshwane library listing",
+    "verificationNote": "The mapped point is an approximate pin within Sammy Marks Square. Check current public access and services with the library before visiting."
+  },
+  {
+    "id": "student:sa-shawarma",
+    "name": "SA Shawarma",
+    "aliases": [
+      "SA Shawarma Pretoria",
+      "shawarma",
+      "chicken shawarma"
+    ],
+    "category": "food",
+    "address": "222 Pretorius Street, Savelkouls Building, Pretoria Central, Pretoria, 0002",
+    "lat": -25.74748,
+    "lng": 28.18968,
+    "description": "Shawarma and sphatlho takeaway at Savelkouls Building.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/647422d680578578b0f7e73ba54a753d/bb3c0a72d9475b425c5ee9e6ea716d2f.webp",
+    "sourceLabel": "Uber Eats business listing and address",
+    "verificationNote": "Map pin is approximate to the published building address; walking distance may differ.",
+    "menuSourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+    "menuNote": "Menu prices are from the current Uber Eats listing and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "sa-shawarma-veggie-chips",
+        "name": "Veggie Shawarma with Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 20,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-chicken-chips",
+        "name": "Regular Chicken Shawarma with Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 25,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-beef-russian",
+        "name": "Beef Russian Shawarma with Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 30,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-chicken-cheese",
+        "name": "Chicken Shawarma and Cheese with Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 35,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-beef-chips",
+        "name": "Beef Shawarma with Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 40,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-beef-cheese",
+        "name": "Beef Shawarma with Cheese and Chips",
+        "category": "shawarma",
+        "description": "",
+        "price": 45,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "sa-shawarma-sphatlho",
+        "name": "Bread, Chips, Achar and Polony",
+        "category": "snack",
+        "description": "",
+        "price": 16,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/sa-shawarma/TwKKdmbkR7SoNK28KwHCzA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:hungry-lion-jsl",
+    "name": "Hungry Lion JSL Towers",
+    "aliases": [
+      "Hungry Lion",
+      "JSL Towers Hungry Lion",
+      "Hungry Lion Pretoria"
+    ],
+    "category": "food",
+    "address": "Shop 005, JSL Towers, 255 Pretorius Street, Pretoria Central, 0002",
+    "lat": -25.7475,
+    "lng": 28.1913,
+    "description": "Chicken, burgers, wings and value meals at JSL Towers.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/0254de6977d1eaa2ffeea0147152fedd/7d9011fd8e36c5a7ce512c5a2f2d7fe5.jpeg",
+    "sourceLabel": "Uber Eats store listing; official Hungry Lion menu for item prices",
+    "verificationNote": "Map pin is approximate to the published building address; walking distance may differ.",
+    "menuSourceUrl": "https://www.hungrylion.co.za/menu/",
+    "menuNote": "Prices and item photos are from Hungry Lion's official menu; confirm the current price at this outlet.",
+    "menuItems": [
+      {
+        "id": "hungry-lion-munch-burger",
+        "name": "Munch Burger",
+        "category": "burger",
+        "description": "",
+        "price": 24.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/MUNCH-BURGER.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-big-bite-2",
+        "name": "Big Bite 2",
+        "category": "chicken",
+        "description": "Two pieces of chicken served with regular chips.",
+        "price": 42.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/WEBSITE-BIG-BITE-2_1080x1080px.png-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-big-boss-cheese",
+        "name": "Big Boss Cheese Burger",
+        "category": "burger",
+        "description": "",
+        "price": 44.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/BIG-BOSS-CHEESE.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-sticky-wings",
+        "name": "6 Sticky Wings",
+        "category": "chicken",
+        "description": "",
+        "price": 49,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/6-sticky-wings-1024x1024-1.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-fingers-dippa",
+        "name": "3 Chicken Fingers and 1 Dippa",
+        "category": "chicken",
+        "description": "",
+        "price": 29.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/HL_TillImage_3FingersDippa.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-big-one",
+        "name": "The Big One",
+        "category": "chicken",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 32.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2025/08/The-Big-One.jpg-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-fomo-for-one",
+        "name": "Fomo For One",
+        "category": "chicken",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 38.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/WEBSITE-FOMO-FOR-ONE_1080x1080px.png-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-snack-pack",
+        "name": "Snack Pack",
+        "category": "chicken",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 39.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/WEBSITE-SNACK-PACK_1080x1080px.png-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-double-munch-burger",
+        "name": "Double Munch Burger",
+        "category": "burger",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 34.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/DOUBLE-MUNCH.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-munch-meal",
+        "name": "Munch Meal",
+        "category": "burger",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 49.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/Munch-Meal.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-6-zamba-wings",
+        "name": "6 Zamba Wings",
+        "category": "chicken",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 45,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2025/08/6-Zamba-Wings-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-6-chicken-fingers",
+        "name": "6 Chicken Fingers & 2 Dippas",
+        "category": "chicken",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 54.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2026/11/HL_TillImage_6Fingers2Dippas.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "hungry-lion-regular-chips",
+        "name": "Regular Chips",
+        "category": "snack",
+        "description": "Listed on Hungry Lion’s official menu.",
+        "price": 23.9,
+        "image": "https://www.hungrylion.co.za/wp-content/uploads/2025/08/WEBSITE-REGULAR-CHIPS_1080x1080px-1024x1024.webp",
+        "sourceLabel": "Hungry Lion official menu",
+        "sourceUrl": "https://www.hungrylion.co.za/menu/",
+        "imageSource": "Hungry Lion official menu",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:romans-pizza-pretorius",
+    "name": "Roman's Pizza Pretorius",
+    "aliases": [
+      "Roman's Pizza",
+      "Romans Pizza",
+      "Roman's Pizza Pretorius Exp"
+    ],
+    "category": "food",
+    "address": "296 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "lat": -25.74754,
+    "lng": 28.19261,
+    "description": "Pizza, pizza pies and sides at Pretorius Street.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/08759ba16c5d734ad90dba1931d149a3/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+    "sourceLabel": "Uber Eats listing and address",
+    "verificationNote": "Map pin is approximate to the published street address; walking distance may differ.",
+    "menuSourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+    "menuNote": "Menu prices are from the current Uber Eats listing and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "romans-pizza-pie-pepperoni",
+        "name": "Pizza Pie Pepperoni",
+        "category": "pizza",
+        "description": "",
+        "price": 38,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "romans-pizza-pie-bbq-chicken",
+        "name": "Pizza Pie BBQ Chicken",
+        "category": "pizza",
+        "description": "",
+        "price": 38,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "romans-pizza-pie-chicken-mayo",
+        "name": "Pizza Pie Chicken Mayo",
+        "category": "pizza",
+        "description": "",
+        "price": 38,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "romans-sava-flava-pepperoni",
+        "name": "Roman’s Pizza Selection",
+        "category": "pizza",
+        "description": "Toppings, sizes and prices vary by order.",
+        "price": null,
+        "image": "https://img02.restaurantguru.com/c12b-pizza-Romans-Pizza-Pretoria-Central.jpg",
+        "sourceLabel": "Roman's Pizza Pretoria Central listing",
+        "sourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+        "imageSource": "Roman's Pizza Pretoria Central listing",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "romans-bbq-chicken-mushroom",
+        "name": "BBQ Chicken & Mushroom Pizza",
+        "category": "pizza",
+        "description": "Price varies by size and add-ons.",
+        "price": null,
+        "image": "https://tb-static.uber.com/prod/image-proc/processed_images/ed4de3199f6c67b0faf3cf93b8dcd338/c67fc65e9b4e16a553eb7574fba090f1.jpeg",
+        "sourceLabel": "Roman's Pizza menu listing",
+        "sourceUrl": "https://www.ubereats.com/za/store/romans-pizza-pretorius-exp/ry_TIqTHT2qzXN_TpGlpDQ",
+        "imageSource": "Roman's Pizza / Uber Eats",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:pedros-pretorius",
+    "name": "Pedros Pretorius Street",
+    "aliases": [
+      "Pedros Pretoria CBD",
+      "Pedros",
+      "Pedro's Pretorius"
+    ],
+    "category": "food",
+    "address": "295 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "lat": -25.74754,
+    "lng": 28.19261,
+    "description": "Portuguese-style chicken, burgers, wraps and paella bowls at Pretorius Street.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/cab86fd9b7918511f0bab01a22a63ad7/7d9011fd8e36c5a7ce512c5a2f2d7fe5.jpeg",
+    "sourceLabel": "Uber Eats listing and address",
+    "verificationNote": "Map pin is approximate to the published street address; walking distance may differ.",
+    "menuSourceUrl": "https://www.mrd.com/delivery/restaurant/pedros-pretorius-street-pretoria-cbd/29874",
+    "menuNote": "Menu prices are from Mr D and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "pedros-sprinkle-chicken-burger",
+        "name": "Sprinkle Chicken Burger",
+        "category": "burger",
+        "description": "",
+        "price": 42.99,
+        "image": "https://i0.wp.com/pedroschicken.co.za/wp-content/uploads/2023/12/Sprinkle-Chicken-Burger-Chips.png?fit=501%2C501&ssl=1",
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/pedros-pretorius-street-pretoria-cbd/29874",
+        "imageSource": "Pedros official menu",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "pedros-paella-bowl",
+        "name": "Paella Bowl",
+        "category": "chicken",
+        "description": "",
+        "price": 44.99,
+        "image": null,
+        "sourceLabel": "Mr D menu",
+        "sourceUrl": "https://www.mrd.com/delivery/restaurant/pedros-pretorius-street-pretoria-cbd/29874",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:steers-pretorius",
+    "name": "Steers Van Der Walt Street",
+    "aliases": [
+      "Steers Pretorius Street",
+      "Steers Pretoria CBD",
+      "Steers"
+    ],
+    "category": "food",
+    "address": "296 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "lat": -25.74754,
+    "lng": 28.19261,
+    "description": "Flame-grilled burgers and chicken at the Van Der Walt Street branch.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/486ba7f7505ca81eb1f9a36093402dce/f6deb0afc24fee6f4bd31a35e6bcbd47.jpeg",
+    "sourceLabel": "Uber Eats listing and address",
+    "verificationNote": "Map pin is approximate to the published street address; walking distance may differ.",
+    "menuSourceUrl": "https://www.ubereats.com/za/store/steersvan-der-walt-street-pta-cbd/2Y0ZuaguWHG5i5KYCeX4xA",
+    "menuNote": "Menu prices are from the current Uber Eats listing and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "steers-phanda-cheese-burger",
+        "name": "Phanda Cheese Burger",
+        "category": "burger",
+        "description": "",
+        "price": 64.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/steersvan-der-walt-street-pta-cbd/2Y0ZuaguWHG5i5KYCeX4xA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "steers-phanda-king-steer",
+        "name": "Phanda King Steer Burger",
+        "category": "burger",
+        "description": "",
+        "price": 74.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/steersvan-der-walt-street-pta-cbd/2Y0ZuaguWHG5i5KYCeX4xA",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:debonairs-pizza-cbd",
+    "name": "Debonairs Pizza Pretoria CBD",
+    "aliases": [
+      "Debonairs",
+      "Debonairs Pizza",
+      "Pretoria CBD Debonairs"
+    ],
+    "category": "food",
+    "address": "Shop 12, Fedsure Forum Building, corner Van Der Walt and Pretorius Streets, Pretoria Central, 0002",
+    "lat": -25.74755,
+    "lng": 28.19045,
+    "description": "Pizza and meal deals at Fedsure Forum.",
+    "image": "https://tb-static.uber.com/prod/image-proc/processed_images/3ad1f304ae84c6cd3d82e3b5f0631de0/19ec62ba51fde35ba0aff5b84321c5af.jpeg",
+    "sourceLabel": "Uber Eats listing and address",
+    "verificationNote": "Map pin is approximate to the published building address; walking distance may differ.",
+    "menuSourceUrl": "https://www.ubereats.com/za/store/debonairs-pizza-pretoria-cbd/T3aBf8IJW06-nfypvyVQzw",
+    "menuNote": "Menu prices are from the current Uber Eats listing and can differ at the counter.",
+    "menuItems": [
+      {
+        "id": "debonairs-bbq-chicken-pizza",
+        "name": "BBQ Chicken Pizza",
+        "category": "pizza",
+        "description": "",
+        "price": 38.9,
+        "image": "https://media.cylex.net.za/companies/2387/7267/images/1376754943-Large-BBQ-Chicken-pizza-from-Debonairs-Pizza-placed-on-top-of-a-black-plate-on-a-black-b_825144_large.jpg",
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/debonairs-pizza-pretoria-cbd/T3aBf8IJW06-nfypvyVQzw",
+        "imageSource": "Debonairs Pizza promotional photo",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "debonairs-chicken-pizza",
+        "name": "Debonairs Chicken Pizza",
+        "category": "pizza",
+        "description": "",
+        "price": 40.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/debonairs-pizza-pretoria-cbd/T3aBf8IJW06-nfypvyVQzw",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      },
+      {
+        "id": "debonairs-bbq-beef-pizza",
+        "name": "BBQ Beef Pizza",
+        "category": "pizza",
+        "description": "",
+        "price": 38.9,
+        "image": null,
+        "sourceLabel": "Uber Eats menu",
+        "sourceUrl": "https://www.ubereats.com/za/store/debonairs-pizza-pretoria-cbd/T3aBf8IJW06-nfypvyVQzw",
+        "imageSource": "",
+        "verifiedOn": "2026-11-12"
+      }
+    ]
+  },
+  {
+    "id": "student:clicks-middestad",
+    "name": "Clicks Pharmacy · Middestad Mall",
+    "aliases": [
+      "Clicks Middestad",
+      "Clicks Pharmacy",
+      "Clicks"
+    ],
+    "category": "health",
+    "address": "Middestad Mall, 247 Pretorius Street, Pretoria Central, Pretoria, 0002",
+    "description": "Pharmacy and health products inside Middestad Mall.",
+    "highlights": [
+      "Pharmacy services are listed at this branch."
+    ],
+    "image": "",
+    "sourceLabel": "Clicks store listing",
+    "verificationNote": "Approximate mall pin from the published branch coordinates.",
+    "lat": -25.747853,
+    "lng": 28.192196
+  },
+  {
+    "id": "student:shoprite-middestad",
+    "name": "Shoprite · Middestad Mall",
+    "aliases": [
+      "Shoprite Middestad",
+      "Shoprite",
+      "Middestad Mall grocery"
+    ],
+    "category": "groceries",
+    "address": "Middestad Mall, 252 Thabo Sehume Street, Pretoria Central, Pretoria, 0002",
+    "description": "Groceries, bakery and deli at Middestad Mall.",
+    "highlights": [
+      "Groceries, bakery and deli items are listed for this supermarket."
+    ],
+    "image": "",
+    "sourceLabel": "Shoprite Middestad listing",
+    "verificationNote": "Approximate mall pin; use the mall address for walking directions.",
+    "lat": -25.747853,
+    "lng": 28.192196
+  },
+  {
+    "id": "student:omni-printings",
+    "name": "Omni Printings",
+    "aliases": [
+      "Omni Printing",
+      "Omni Printings Pretoria",
+      "printing"
+    ],
+    "category": "printing",
+    "address": "C74, E&T Container Market, 342 Francis Baard Street, Pretoria Central, Pretoria, 0002",
+    "description": "Printing services inside E&T Container Market.",
+    "highlights": [
+      "Listed as a print shop in the E&T Container Market."
+    ],
+    "image": "",
+    "sourceLabel": "Pretoria.co.za business listing",
+    "verificationNote": "Approximate E&T Container Market pin; individual shop stall position may differ.",
+    "lat": -25.7487,
+    "lng": 28.1951
+  }
+]
