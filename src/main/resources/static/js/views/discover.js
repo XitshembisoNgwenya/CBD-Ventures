@@ -1,9 +1,9 @@
 /**
  * Discover — the home feed, using the same verified directory as Explore.
  */
-import { api, session } from '../api.js?v=20261112-2';
-import { icon, escapeHtml, skeletonCards } from '../ui.js?v=20261112-2';
-import { placeCard } from './explore.js?v=20261112-2';
+import { api, session } from '../api.js?v=20261112-3';
+import { icon, escapeHtml, skeletonCards } from '../ui.js?v=20261112-3';
+import { placeCard } from './explore.js?v=20261112-3';
 
 const CATEGORY_ALIASES = {
   'food-drinks': 'food',

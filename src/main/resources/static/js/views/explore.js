@@ -1,8 +1,8 @@
 /**
  * Explore — photo-first menu and nearby place discovery.
  */
-import { api } from '../api.js?v=20261112-2';
-import { icon, escapeHtml, skeletonCards } from '../ui.js?v=20261112-2';
+import { api } from '../api.js?v=20261112-3';
+import { icon, escapeHtml, skeletonCards } from '../ui.js?v=20261112-3';
 
 const SORTS = [
   { key: 'closest', label: 'Closest' },

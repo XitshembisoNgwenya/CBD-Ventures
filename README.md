@@ -5,7 +5,7 @@ CBDVentures is a mobile-first guide and local discovery platform for students, r
 **Live demo:** [cbdventures-final-project.onrender.com](https://cbdventures-final-project.onrender.com)  
 **Project:** IT Project Group 5  
 **Campus reference:** Richfield Graduate Institute of Technology, 291 Helen Joseph Street, Pretoria Central  
-**Project brand:** The black-and-white NxG monogram appears in the app header.
+**Project brand:** The black-and-white NxG monogram appears on the welcome screen and in the app header.
 
 ## What the app includes
 
@@ -14,7 +14,7 @@ CBDVentures is a mobile-first guide and local discovery platform for students, r
 | Discover | Presents categories, featured places, recommendations and upcoming events from the platform catalogue. |
 | Explore | Searches and filters the shared nearby directory with photo-led place and menu cards, food-type and price filters, search and sorting. |
 | Ask (Assistant) | Answers questions about those same places, shows priced menu items that fit a budget, and opens place details and walking directions from Richfield. |
-| Map | Shows active listings from the wider platform catalogue on an interactive map. |
+| Map | Shows nearby active listings around Richfield; map filters sit below the map, and an OpenStreetMap embed is used if the interactive map library is unavailable. |
 | Business profiles and reviews | Show listing details, average ratings, review counts and the 1–5 star distribution from submitted reviews. |
 | Events | Shows upcoming events and lets users save events in the current browser. |
 | Accounts and profiles | Supports guest browsing, registration, email verification, sign-in and optional Google or Apple sign-in. Signed-in sessions stay in the current browser tab. |

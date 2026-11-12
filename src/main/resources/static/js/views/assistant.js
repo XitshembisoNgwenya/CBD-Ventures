@@ -7,8 +7,8 @@
  * CBDVentures Assistant project (curated student directory + rule-based guide),
  * so no second server or API key is needed.
  */
-import { api, session } from '../api.js?v=20261112-2';
-import { icon, escapeHtml, toast } from '../ui.js?v=20261112-2';
+import { api, session } from '../api.js?v=20261112-3';
+import { icon, escapeHtml, toast } from '../ui.js?v=20261112-3';
 
 const GREETING = 'Hey! 👋 I’m the CBD Ventures guide. Browse food photos and menus, or ask about groceries, pharmacies, printing, banks, beauty, entertainment, study spaces and directions within 1 km of Richfield.';
 

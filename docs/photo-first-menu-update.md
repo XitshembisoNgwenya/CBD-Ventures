@@ -96,4 +96,4 @@ Source: [Uber Eats listing and address](https://www.ubereats.com/za/store/debona
 
 The source of truth for the shared directory, place image references, menu entries, source links and verification dates is src/main/resources/assistant/places.json. Update that file when a venue confirms a new menu or corrects a location. Do not replace an approximate pin with a reported correction until it has been checked.
 
-The black-and-white NxG monogram used in the header is src/main/resources/static/images/nxg-logo.png.
+The black-and-white NxG monogram appears on the welcome screen and in the app header. Its image is src/main/resources/static/images/nxg-logo.png. The map screen reloads its Richfield zone data if startup loading missed it, keeps the category filters below the map, and falls back to an OpenStreetMap embed if Leaflet is unavailable.

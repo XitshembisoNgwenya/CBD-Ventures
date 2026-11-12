@@ -1,6 +1,6 @@
 # Full project package
 
-CBDVentures_Full_Project_With_Documents_Menu_Update.zip contains the complete CBDVentures project folder and its documents, with the current photo-first menu directory update and the NxG logo integrated.
+CBDVentures_Full_Project_With_Documents_Menu_Update.zip contains the complete CBDVentures project folder and its documents, with the photo-first menu directory, NxG logo on the welcome screen and header, and the map-loading fallback integrated.
 
 ## First run after unzipping
 

@@ -749,6 +749,7 @@ input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(.7); }
 .map-frame svg { width: 100%; height: auto; border-radius: var(--radius-sm); display: block; }
 .leaflet-map { width: 100%; height: 430px; border-radius: var(--radius-sm); overflow: hidden; background: #e8e4dc; }
 .leaflet-map--compact { height: 240px; }
+.map-embed { display: block; width: 100%; height: 100%; min-height: 430px; border: 0; border-radius: var(--radius-sm); }
 .leaflet-popup-content-wrapper, .leaflet-popup-tip { background: var(--map-popup-bg); color: var(--map-popup-ink); }
 .leaflet-popup-content { line-height: 1.5; }
 .leaflet-popup-content a { color: var(--map-popup-link); }
@@ -756,9 +757,9 @@ input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(.7); }
 .leaflet-control-attribution { padding: 2px 5px !important; border-radius: 4px 0 0 0; background: rgba(255,255,255,.82) !important; color: #34383f !important; font-size: 9px !important; line-height: 1.3 !important; }
 .leaflet-control-attribution a { color: #245da8 !important; }
 .map-layers {
-  position: absolute; z-index: 650; top: 18px; right: 18px;
-  display: grid; gap: 7px; width: max-content; max-width: min(220px, calc(100% - 36px));
-  margin: 0; padding: 10px 12px; border: 1px solid var(--line); border-radius: 12px;
+  position: static;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 8px 12px; width: auto; max-width: 100%;
+  margin: 10px 0 0; padding: 9px 11px; border: 1px solid var(--line); border-radius: 12px;
   background: var(--surface); color: var(--ink); box-shadow: var(--shadow-sm);
 }
 .map-layers legend { padding: 0 4px; color: var(--muted); font-size: .66rem; font-weight: 750; }
@@ -787,7 +788,8 @@ input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(.7); }
 
 @media (max-width: 420px) {
   .leaflet-map { height: 380px; }
-  .map-layers { top: 16px; right: 16px; gap: 6px; padding: 8px 10px; }
+  .map-embed { min-height: 380px; }
+  .map-layers { gap: 6px; padding: 8px 10px; }
 }
 
 /* ------------------------------------------------------------------ profile */
@@ -1288,6 +1290,7 @@ input[type="time"]::-webkit-calendar-picker-indicator { filter: invert(.7); }
   line-height: 1.3;
 }
 .welcome__nxg-credit { margin-top: 10px; }
+.welcome__nxg-credit .nxg-mark { width: 40px; height: 40px; }
 .auth__nxg-credit { margin-top: 4px; }
 
 @media (max-width: 360px) {

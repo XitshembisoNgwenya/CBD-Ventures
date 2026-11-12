@@ -1,15 +1,13 @@
 const TILE_URL = 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
 
 export function mountOpenStreetMap(container, { zone, businesses = [], focus = null }) {
-  if (!window.L) {
-    throw new Error('The interactive map could not load. Check your internet connection and try again.');
-  }
   if (!zone) {
-    throw new Error('The map area is not ready yet. Refresh the page and try again.');
+    throw new Error('Richfield map coordinates are unavailable. Try loading the map again.');
   }
+  if (!window.L) return mountEmbeddedMap(container, zone);
 
   const L = window.L;
-  const center = [zone.anchorLatitude, zone.anchorLongitude];
+  const center = [Number(zone.anchorLatitude), Number(zone.anchorLongitude)];
   const map = L.map(container, { scrollWheelZoom: false, zoomControl: true }).setView(center, 16);
   map.attributionControl.setPrefix('');
   L.tileLayer(TILE_URL, {
@@ -28,9 +26,9 @@ export function mountOpenStreetMap(container, { zone, businesses = [], focus = n
 
   L.marker(center, {
     icon: pinIcon(L, 'campus'),
-    title: zone.anchorName || 'Richfield campus',
+    title: zone.name || zone.anchorName || 'Richfield campus',
     riseOnHover: true
-  }).bindPopup(textPopup(zone.anchorName || 'Richfield campus', zone.anchorAddress || '')).addTo(map);
+  }).bindPopup(textPopup(zone.name || zone.anchorName || 'Richfield campus', zone.address || zone.anchorAddress || '')).addTo(map);
 
   const markers = [];
   businesses.filter(hasCoordinates).forEach((business) => {
@@ -52,6 +50,7 @@ export function mountOpenStreetMap(container, { zone, businesses = [], focus = n
   requestAnimationFrame(() => map.invalidateSize());
 
   return {
+    isFallback: false,
     setVisibleCategories(categories) {
       markers.forEach(({ marker, category }) => {
         if (categories.has(category)) marker.addTo(map);
@@ -59,6 +58,33 @@ export function mountOpenStreetMap(container, { zone, businesses = [], focus = n
       });
     }
   };
+}
+
+function mountEmbeddedMap(container, zone) {
+  const latitude = Number(zone.anchorLatitude);
+  const longitude = Number(zone.anchorLongitude);
+  if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+    throw new Error('Richfield map coordinates are unavailable. Try loading the map again.');
+  }
+  const radiusKm = Number(zone.primaryRadiusKm) || 1;
+  const latitudeDelta = radiusKm / 111.32 * 1.6;
+  const longitudeDelta = radiusKm / (111.32 * Math.max(0.2, Math.cos(latitude * Math.PI / 180))) * 1.6;
+  const bounds = [longitude - longitudeDelta, latitude - latitudeDelta,
+    longitude + longitudeDelta, latitude + latitudeDelta].join(',');
+  const mapUrl = new URL('https://www.openstreetmap.org/export/embed.html');
+  mapUrl.searchParams.set('bbox', bounds);
+  mapUrl.searchParams.set('layer', 'mapnik');
+  mapUrl.searchParams.set('marker', `${latitude},${longitude}`);
+
+  const frame = document.createElement('iframe');
+  frame.title = 'OpenStreetMap around Richfield Pretoria Campus';
+  frame.src = mapUrl.toString();
+  frame.loading = 'lazy';
+  frame.referrerPolicy = 'no-referrer-when-downgrade';
+  frame.setAttribute('allowfullscreen', '');
+  frame.className = 'map-embed';
+  container.replaceChildren(frame);
+  return { isFallback: true, setVisibleCategories() {} };
 }
 
 function hasCoordinates(business) {
@@ -137,7 +163,8 @@ function businessPopup(business, zone) {
 }
 
 function directionsUrl(zone, business) {
-  const origin = zone.anchorAddress || zone.anchorName || `${zone.anchorLatitude},${zone.anchorLongitude}`;
+  const origin = zone.address || zone.anchorAddress || zone.name || zone.anchorName
+    || `${zone.anchorLatitude},${zone.anchorLongitude}`;
   const destination = `${business.latitude},${business.longitude}`;
   const query = new URLSearchParams({ api: '1', origin, destination, travelmode: 'walking' });
   return `https://www.google.com/maps/dir/?${query.toString()}`;
